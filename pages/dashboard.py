@@ -17,5 +17,9 @@ class Dashboard(BasePage):
     dev_team_contact_xpath = "//*[text()="Dev team contact"]"
     shortcuts_xpath = "//h2[text()="Shortcuts"]"
     add_player_xpath = "//*[text()="Add player"]"
+    activity_xpath = "//h2[text()="Activity"]"
+    edit_last_created_player_xpath = "//*[text()="test_name test_surname"]"
+    edit_last_updated_player_xpath = "//*[text()="Tester Tester"]"
+    last_updated_report_xpath = "//*[text()="Test Testowy"]"
 
     pass
