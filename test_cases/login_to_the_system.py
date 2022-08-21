@@ -1,7 +1,10 @@
 import os
 import time
 import unittest
+
+from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
+from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 
