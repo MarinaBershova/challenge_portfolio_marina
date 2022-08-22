@@ -25,5 +25,4 @@ class BasePage():
             :return: None
         """
         element = driver.find_element(by=By.XPATH, value=xpath)
-        element_text = element.text
-        assert expected_text == element_text
+        assert expected_text == element.text
