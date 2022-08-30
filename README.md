@@ -2,6 +2,7 @@
 > Because of the war, I ended up in a foreign country without work. I think that this is a *perfect* job that will allow me to work remotely from anywhere in the world. It is a great advantage for me because I have a child (I think people with children understand me 😅). 
 >> My goal is a decent salary that will allow me to ___travel😎___ and give a good ___education___ to my son.
 
+# Selectors
 ### For header
 - //*[@id="__next"]/form/div/div[1]/h5
 - //*[text()="Scouts Panel"]
