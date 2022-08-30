@@ -34,6 +34,7 @@ class TestClearFields(unittest.TestCase):
         add_player.type_in_player_age('01012002')
         add_player.type_in_player_main_position('goalkeeper')
         add_player.click_on_the_clear_button()
+        add_player.verify_warning_message()
         time.sleep(5)
 
     @classmethod

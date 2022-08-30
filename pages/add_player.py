@@ -12,6 +12,8 @@ class AddPlayer(BasePage):
     clear_button_xpath = "//*[text()='Clear']"
     new_player_xpath = "(//span[contains(@class, 'MuiTypography-root')])[3]"
     new_player = "Leon King"
+    warning_message_xpath = "//*[text() = 'Required']"
+    warning_message = "Required"
 
     def type_in_player_name(self, name):
         self.field_send_keys(self.player_name_xpath, name)
@@ -33,3 +35,6 @@ class AddPlayer(BasePage):
 
     def click_on_the_clear_button(self):
         self.click_on_the_element(self.clear_button_xpath)
+
+    def verify_warning_message(self):
+        self.assert_element_text(self.warning_message_xpath, self.warning_message)
