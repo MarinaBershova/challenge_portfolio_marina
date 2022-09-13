@@ -25,7 +25,7 @@ class Dashboard(BasePage):
     edit_last_updated_player_xpath = "//*[text()='Tester Tester']"
     last_updated_report_xpath = "//*[text()='Test Testowy']"
     expected_title = "Scouts panel"
-    dashboard_url = "https://scouts-test.futbolkolektyw.pl/"
+    dashboard_url = "https://scouts.futbolkolektyw.pl/"
 
     def title_of_page(self):
         self.wait_for_element_to_be_clickable(self.dev_team_contact_xpath)
